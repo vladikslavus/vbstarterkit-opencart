@@ -1,0 +1,7 @@
+/.archive/
+.vscode/
+package-lock.json
+/node_modules/
+/resources/
+/www/image/
+/www/system/logs/

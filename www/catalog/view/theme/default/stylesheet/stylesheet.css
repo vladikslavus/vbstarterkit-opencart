@@ -1,0 +1,46 @@
+@import url(/node_modules/normalize.css/normalize.css);
+html {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url(/catalog/view/theme/default/stylesheet/fonts/Roboto-Regular.ttf); }
+
+body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: #000;
+  background-color: #CAD3C8; }
+
+h1 {
+  color: #000;
+  font-weight: bold; }
+
+.link {
+  display: block; }
+
+.by {
+  font-size: .88rem;
+  margin-top: 2rem; }
+
+.version {
+  position: absolute;
+  bottom: 1rem;
+  font-size: .88rem; }
